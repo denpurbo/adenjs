@@ -1,0 +1,32 @@
+{
+  "name": "aden-website",
+  "author": {
+    "name": "Adenxcode",
+    "email": "donnysuhend@gmail.com"
+  },
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/color-mode": "^3.3.0",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@types/node": "^18",
+    "@vite-pwa/nuxt": "^0.1.0",
+    "nuxt": "^3.6.0",
+    "typescript": "latest"
+  },
+  "dependencies": {
+    "@animxyz/vue": "^0.6.7",
+    "@leonardssh/use-lanyard": "^1.0.4",
+    "@pinia/nuxt": "^0.4.11",
+    "floating-vue": "^2.0.0-beta.22",
+    "nuxt-icon": "^0.4.1",
+    "pinia": "^2.1.4"
+  }
+}
