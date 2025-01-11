@@ -14,4 +14,9 @@ export default defineNuxtConfig({
   },
 
   devtools: { enabled: true },
+  target: 'static',
+  router: {
+    mode: 'hash',
+    base: './'
+  },
 });
